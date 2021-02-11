@@ -1,0 +1,207 @@
+    /* md-create-account-1 CSS codes are ABOVE */
+    
+    .btn,
+    .btn:hover,
+    .btn:active:focus {
+        border-width: 1px;
+        /* border-color: grey; */
+        border-radius: 4px;
+        border-color: #65af03;
+        background-color: #c0ff6d;
+        color: #65af03;
+        font-weight: 600;
+        font-size: 11pt;
+        padding: 8px;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 2px;
+        margin-left: 0px;
+        width: 165px;
+    }
+    
+    .btn {
+        border-color: #65af03;
+        border-width: 1px;
+        font-weight: 550;
+        color: #65af03;
+        background-color: #fff;
+    }
+    
+    .upload-text {
+        padding-left: 0px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        text-align: left;
+        font-size: 11pt;
+    }
+    
+    .cropped-img {
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+    }
+    
+    .button-label {
+        padding: 5px;
+        font-weight: 500;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-color: #fff;
+        border-color: #65af03;
+    }
+    
+    .button-label:hover {
+        padding: 5px;
+        font-weight: 600;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .inputfile-hide {
+        display: none;
+    }
+    /* md-create-account-1 CSS codes are ABOVE */
+    
+    html {
+        /* font-family: 'Nunito', sans-serif; */
+        font-family: 'roboto', sans-serif;
+        background-color: #fff;
+        font-size: 16px;
+    }
+    
+    body {
+        font-size: 1rem;
+        /* font-family: 'roboto', sans-serif; */
+        /* font-family: "Roboto Regular", sans-serif; */
+        /* background-color: #fff; */
+    }
+    /******************************* Main Container after Nav bar ********************************/
+    /* ANCHOR Heading Text */
+    
+    .head-text {
+        color: #444;
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-family: 'roboto regular', sans-serif;
+    }
+    
+    .custom-row {
+        padding: 0px 0px 0px;
+        padding-top: calc((100vh - 500px)/2);
+    }
+    
+    .main-container {
+        /* margin-top: calc((100vh - 480px)/2); */
+        margin-top: 0px;
+        margin-bottom: 30px;
+        margin-bottom: calc((100vh - 450px)/2);
+        justify-content: center;
+        width: 750px;
+        /* height: 450px; */
+        padding: 0px 20px 20px;
+    }
+    
+    .card {
+        border-radius: 10px;
+        border: 1px solid #aaa;
+    }
+    
+    .form-control,
+    .custom-input {
+        /* width: 107%; */
+        /* margin-left: -13px; */
+        border-color: #aaa;
+        /* border-color: #65af03; */
+        border-radius: 5px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 1rem;
+    }
+    
+    .custom-input {
+        margin-top: 20px;
+    }
+    
+    .form-control:focus,
+    .form-control:active,
+    .custom-input:focus {
+        background-color: #fff;
+        border-color: rgb(101, 175, 3);
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(101, 175, 3, 0.2);
+    }
+    /* **************** New ****************** */
+    
+    .custom-file,
+    .custom-file-input {
+        height: 30px;
+        margin-bottom: 0px;
+    }
+    
+    .custom-file-label {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    
+    .link-text {
+        font-size: 0.9rem;
+    }
+    
+    .link-text-link {
+        margin-top: 0px;
+        color: #65AF03;
+    }
+    
+    .link-text-link:hover {
+        margin-top: 0px;
+        color: #444;
+        text-decoration: underline;
+    }
+    
+    .custom-btn {
+        background-color: #65AF03;
+        border: 1px solid #65AF03;
+        color: #fff;
+        width: 100px;
+        width: 165px;
+        font-size: 1rem;
+    }
+    
+    .custom-btn:hover {
+        background-color: #fff;
+        border: 1px solid #65AF03;
+        color: #65AF03;
+        width: 165px;
+        font-size: 1rem;
+    }
+    
+    .custom-btn:focus {
+        box-shadow: 0 0 0 0.2rem #65AF03;
+    }
+    
+    label {
+        color: #65AF03;
+    }
+    /* 
+.uploaded-image {
+    border: 1px solid #65AF03;
+    height: 150px;
+    width: 150px;
+} */
+    /************************** Large devices (desktops, 992px and up) ***************************/
+    
+    @media (min-width: 992px) {
+        .custom-row {
+            padding-left: 110px;
+        }
+    }
+    /************************** Extra large devices (large desktops, 1200px and up) ***************************/
+    
+    @media (min-width: 1200px) {
+        .custom-row {
+            padding-left: 200px;
+        }
+    }

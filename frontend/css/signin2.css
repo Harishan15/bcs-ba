@@ -1,0 +1,119 @@
+/* ///////////////////////// */
+
+.bg1{
+    width:600px;
+    /* margin: 100px 10px 10px 100px; */
+    margin-top: calc((100vh - 400px)/2);
+    margin-left: calc(100vh - 113px);
+    display: flex;
+    z-index: 1;
+
+}
+
+
+.bg3{
+    width:500px;
+    margin-top: 100px;   /* margin: 100px 10px 10px 100px; */
+    /* margin-top: calc((100vh - 400px)/2); */
+    /* margin-left: calc(100vh - 113px); */
+    display: flex;
+    z-index: 6;
+
+}
+
+.bcs-logo{
+    width: 80px;
+    margin-top: calc((100vh - 580px)/2);
+    z-index: 2;
+    position: absolute;
+}
+
+
+.matrix-logo{
+    width: 150px;
+    /* margin-top: 10px; */
+    margin-top: calc((100vh - 600px)/2);
+    position: absolute;
+    z-index: 3;
+    display: flex;
+}
+
+.input-block{
+    z-index: 4;
+    position: absolute;
+    margin-top: 180px ;
+    display: block;
+    width: 400px;
+}
+
+.signin-text{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+/* ///////////////////////// */
+
+
+.form-control,
+.custom-input {
+    /* width: 107%; */
+    /* margin-left: -13px; */
+    border-color: #aaa;
+    /* border-color: #65af03; */
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+
+.custom-input {
+    margin-top: 20px;
+}
+
+.form-control:focus,
+.form-control:active,
+.custom-input:focus {
+    background-color: #fff;
+    border-color: rgb(101, 175, 3);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(101, 175, 3, 0.2);
+}
+
+/* ////////////////////////////////////////////////////////////////////// */
+
+
+.link-text {
+    font-size: 0.9rem;
+}
+
+.link-text-link {
+    margin-top: 0px;
+    color: #65AF03;
+}
+
+.link-text-link:hover {
+    margin-top: 0px;
+    color: #444;
+    text-decoration: underline;
+}
+
+.custom-btn {
+    background-color: #65AF03;
+    border: 1px solid #65AF03;
+    color: #fff;
+    width: 100px;
+    font-size: 1rem;
+}
+
+.custom-btn:hover {
+    background-color: #fff;
+    border: 1px solid #65AF03;
+    color: #65AF03;
+    font-size: 1rem;
+}
+
+.custom-btn:focus {
+    box-shadow: 0 0 0 0.2rem #65AF03;
+}

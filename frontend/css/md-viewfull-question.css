@@ -1,0 +1,276 @@
+    /* ANCHOR Navigation Bar */
+    
+    .navbar-brand,
+    .navbar-brand:hover {
+        font-size: 25px;
+        font-weight: 600;
+        color: #000;
+        font-family: "Roboto Regular", sans-serif;
+    }
+    
+    .navbar {
+        color: #000;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 6px #d0d0d0;
+        font-family: "Roboto Medium", sans-serif;
+    }
+    /* ****************************** Navigation Bar Items********************************* */
+    
+    .user-profile,
+    .syllabus-link,
+    .candidate-link {
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #65AF03;
+    }
+    
+    .syllabus-link,
+    .candidate-link {
+        color: #777777;
+        /* border-bottom: 2px solid #777777; */
+        margin-bottom: -2px;
+    }
+    
+    .syllabus-link:hover,
+    .candidate-link:hover {
+        color: #65AF03;
+        border-bottom: 2px solid #65AF03;
+        margin-bottom: -2px;
+    }
+    
+    .active {
+        color: #65AF03;
+        border-bottom: 2px solid #65AF03;
+        margin-bottom: -2px;
+    }
+    
+    .nav-item {
+        margin-left: 0px;
+        margin-right: 40px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .profile-picture {
+        height: 40px;
+        width: 40px;
+        border-bottom: 0px;
+        border-radius: 50px;
+    }
+    
+    .profile-name {
+        font-family: "Roboto Regular", sans-serif;
+        color: #65AF03;
+        font-weight: 400;
+        font-size: 14px;
+        margin-right: 10px;
+        margin-bottom: -15px;
+    }
+    
+    .role-name {
+        font-family: "Roboto Regular", sans-serif;
+        color: #999;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: -15px;
+    }
+    /* ****************************** Navigation Bar Items - END ********************************* */
+
+
+
+
+
+html {
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: "roboto", sans-serif;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  /* font-family: 'roboto', sans-serif; */
+  /* font-family: "Roboto Regular", sans-serif; */
+  /* background-color: #fff; */
+}
+/******************************* Main Container after Nav bar ********************************/
+/* ANCHOR Heading Text */
+
+.head-text {
+  color: #444;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: "roboto regular", sans-serif;
+}
+
+.small-heading{
+  color: #5b9e04;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto Regular", sans-serif;
+  margin-bottom: 8px;
+}
+
+.custom-row {
+  padding: 0px 0px 0px;
+  padding-top: calc((100vh - 530px) / 2);
+}
+
+.custom-row2 {
+  padding: 0px 150px 0px;
+}
+
+.main-container {
+  /* margin-top: calc((100vh - 480px)/2); */
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-bottom: calc((100vh - 450px) / 2);
+  justify-content: center;
+  width: 869px;
+  /* height: 450px; */
+  padding: 20px 20px 20px;
+}
+
+.card {
+  border-radius: 10px;
+  border: 2px solid #65af03;
+  box-shadow: 10 0 5 2px #444;
+  /* border: 1px solid #aaa; */
+}
+
+.custom-input {
+  margin-top: 20px;
+}
+
+.form-control:focus,
+.form-control:active,
+.custom-input:focus {
+  background-color: #fff;
+  border-color: rgb(101, 175, 3);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(101, 175, 3, 0.2);
+}
+/* **************** New ****************** */
+
+.card-text {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto regular", sans-serif;
+  /* font-family: 'Helvetica', sans-serif; */
+}
+/* md-create-account-1 CSS codes are ABOVE */
+
+.btn1,
+.btn1:hover,
+.btn1:active:focus {
+  border-radius: 4px;
+  border: 2px solid #65af03;
+  background-color: #c0ff6d;
+  font-family: "Roboto Medium", sans-serif;
+  color: #65af03;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 4px;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 2px;
+  margin-left: 0px;
+  width: 135px;
+}
+
+.btn1 {
+  border: 2px solid #65af03;
+  font-weight: 500;
+  color: #65af03;
+  background-color: #fff;
+}
+
+.btn2,
+.btn2:hover,
+.btn2:active:focus {
+  border-radius: 4px;
+  border: 2px solid #65af03;
+  background-color: #c0ff6d;
+  font-family: "Roboto Medium", sans-serif;
+  color: #65af03;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 4px;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 2px;
+  margin-left: 0px;
+  width: 80px;
+}
+
+.btn2 {
+  border: 2px solid #65af03;
+  font-weight: 500;
+  color: #fff;
+  background-color: #65af03;
+}
+
+/* ************************************************************************************************** */
+
+/* input[type="radio"] + label {
+  color: crimson;
+  font-weight: 600;
+  background-color: pink;
+  border: 2px solid crimson;
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+
+input[type="radio"] + label:hover {
+  color: crimson;
+  font-weight: 600;
+  background-color: white;
+  border: 2px solid crimson;
+}
+
+input[type="radio"]:checked + label {
+  color: pink;
+  font-weight: 600;
+  background-color: crimson;
+  border: 2px solid crimson;
+  box-shadow: 0 0 0 0.2rem #dc143c33;
+} */
+
+.alert1{
+  color: #65af03;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: #c0ff6d;
+  border: 2px solid #65af03;
+}
+
+.alert2{
+  color: #444;
+  font-family: "Roboto Regular", sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  border: 2px solid #65af03;
+}
+
+.form-check-input {
+  display: none;
+}
+/************************** Large devices (desktops, 992px and up) ***************************/
+
+@media (min-width: 992px) {
+  .custom-row {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+/************************** Extra large devices (large desktops, 1200px and up) ***************************/
+
+@media (min-width: 1200px) {
+  .custom-row {
+    padding-left: 140px;
+    padding-right: 136px;
+  }
+}
